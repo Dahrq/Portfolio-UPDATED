@@ -1,6 +1,6 @@
 /* overall formatting */
 html {
-    background-color: #292929;
+    background-color: #19191b;
 }
 
 body::-webkit-scrollbar {
@@ -90,14 +90,14 @@ p {
     padding: 11px;
 }
 
-.warren-logo1{
+.warren-logo1 {
     width: 300px;
     position: absolute;
     top: 150%;
     left: 5%;
 }
 
-.warren-logo2{
+.warren-logo2 {
     width: 300px;
     position: absolute;
     top: 150%;
@@ -106,26 +106,54 @@ p {
 
 
 /* PROJECTS */
-.projects{
+.projects {
     color: #ffffff;
     position: absolute;
-    top: 210%;
-    left: 30%;
-    right: 30%;
+    top: 223%;
+    left: 25%;
+    right: 25%;
     padding: 11px;
     text-align: center;
 }
 
 .project_ {
- 	width: 250px;
+    width: 250px;
 }
 
 
 /* CONTACT-ME */
-.contactMe{
+.contactMe {
     color: #ffffff;
     position: absolute;
-    top: 294%;
-    left: 30%;
-    right: 30%;
+    top: 320%;
+    left: 10%;
+    right: 10%;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-display{
+ 	text-align: center;
+    padding: 8px;
+}
+
+.github-icon{
+ 	height: 200px;   
+}
+
+.instagram-icon{
+ 	height: 200px;   
+}
+
+.email-icon{
+ 	height: 200px;   
 }
